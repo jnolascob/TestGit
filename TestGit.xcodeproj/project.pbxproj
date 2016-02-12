@@ -50,7 +50,7 @@
 		91FDF28B1C6E32090034E3D4 /* TestGitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestGitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91FDF28F1C6E32090034E3D4 /* TestGitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGitUITests.swift; sourceTree = "<group>"; };
 		91FDF2911C6E32090034E3D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		91FDF29D1C6E32D30034E3D4 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		91FDF29D1C6E32D30034E3D4 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .gitignore; path = TestGit/.gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +81,7 @@
 		91FDF2601C6E32090034E3D4 = {
 			isa = PBXGroup;
 			children = (
+				91FDF29D1C6E32D30034E3D4 /* .gitignore */,
 				91FDF26B1C6E32090034E3D4 /* TestGit */,
 				91FDF2831C6E32090034E3D4 /* TestGitTests */,
 				91FDF28E1C6E32090034E3D4 /* TestGitUITests */,
@@ -108,7 +109,6 @@
 				91FDF2781C6E32090034E3D4 /* LaunchScreen.storyboard */,
 				91FDF27B1C6E32090034E3D4 /* Info.plist */,
 				91FDF2731C6E32090034E3D4 /* TestGit.xcdatamodeld */,
-				91FDF29D1C6E32D30034E3D4 /* .gitignore */,
 			);
 			path = TestGit;
 			sourceTree = "<group>";
